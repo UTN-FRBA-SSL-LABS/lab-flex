@@ -1,5 +1,7 @@
 # Laboratorio: Introducción a Flex
 
+**Nombre:** ___________________________
+
 ## Objetivo
 
 Familiarizarse con el uso de Flex para construir analizadores léxicos. A lo largo del laboratorio vas a trabajar con los conceptos centrales: `yytext`, la regla comodín, definiciones ERX, `yyleng`, variables globales, funciones de usuario y retorno de tokens.
