@@ -220,7 +220,12 @@ P3=
 ## Entrega
 
 1. Completá todos los `TODO` en los archivos `.l`
-2. Probá cada ejercicio localmente hasta obtener la salida esperada
+2. Verificá tu puntaje localmente antes de pushear:
+
+```bash
+make test
+```
+
 3. Hacé commit y push de tus cambios en `main`
 
-El autograding va a compilar y ejecutar cada scanner automáticamente.
+> **Tip:** el workflow de corrección solo se activa cuando pusheás cambios en archivos `.l` o `README.md`. Para todo lo demás, `make test` te da el mismo resultado sin consumir minutos de GitHub Actions.
