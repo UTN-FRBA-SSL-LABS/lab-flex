@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include "misfunciones.h"
 
-/* Variable global para contar los tokens reconocidos */
+ /* Variable global para contar los tokens reconocidos */
 int contadorTokens = 0;
 %}
 
@@ -17,7 +17,7 @@ identificador   {letra}({letra}|{digito})*
 
 {identificador}  {
     /* TODO 1 — Incrementar contadorTokens en 1 */
-
+   
     /* TODO 2 — Imprimir el identificador reconocido
        Formato esperado: printf("identificador: %s\n", yytext);  */
 }
