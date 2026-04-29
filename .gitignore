@@ -4,5 +4,5 @@ scanner2
 scanner3
 scanner4
 *.o
-*.yml
-*.json
+workflows/*.yml
+classroom/*.json
